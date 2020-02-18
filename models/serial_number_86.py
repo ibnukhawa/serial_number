@@ -3,8 +3,8 @@ import math
 import re
 from datetime import datetime,timedelta,time
 
-class SerialNumber(models.Model):
-    _name = "serial.number"
+class SerialNumber86(models.Model):
+    _name = "serial.number86"
     _description = "Serial Number"
 
     name = fields.Char(string='Serial Number',  copy=False,  index=True, default=lambda self: _('New'))
@@ -22,9 +22,9 @@ class SerialNumber(models.Model):
     
     @api.model
     def create(self,values):
-        seq = self.env['ir.sequence'].get('serial.number') 
+        seq = self.env['ir.sequence'].get('serial.number86') 
         values['name'] = seq
-        result = super(SerialNumber,self).create(values)
+        result = super(SerialNumber86,self).create(values)
         return result
     
     # @api.model

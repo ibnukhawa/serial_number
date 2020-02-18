@@ -8,7 +8,13 @@
   'data': [
     
     'views/serial_number.xml',
-    # 'views/sale_order.xml'
+    'views/serial_number_86.xml',
+    'views/serial_number1.xml',
+    'views/serial_number2.xml',
+    'views/serial_number3.xml',
+    'views/serial_number4.xml',
+    'views/menuitem.xml',
+    'report/report_serial_number.xml',
     'views/sale_order_line.xml',
   ],
   'qweb': [

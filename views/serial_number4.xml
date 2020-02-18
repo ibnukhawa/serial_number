@@ -2,9 +2,9 @@
 <odoo>
 
     <!-- Serial Number Details Tree View  -->
-    <record id="serial_number_tree" model="ir.ui.view">
-        <field name="name">serial.number.tree</field>
-        <field name="model">serial.number</field>
+    <record id="serial_number4_tree" model="ir.ui.view">
+        <field name="name">serial.number4.tree</field>
+        <field name="model">serial.number4</field>
         <field name="arch" type="xml">
             <tree string="Serial Number">
                 <field name="name"/>
@@ -17,9 +17,9 @@
     </record>
 
     <!-- Serial Number Details Form View -->
-    <record id="serial_number_form" model="ir.ui.view">
-        <field name="name">serial.number.form</field>
-        <field name="model">serial.number</field>
+    <record id="serial_number4_form" model="ir.ui.view">
+        <field name="name">serial.number4.form</field>
+        <field name="model">serial.number4</field>
         <field name="arch" type="xml">
             <form string="Serial Number">
                 <sheet>
@@ -75,10 +75,10 @@
             </form>
         </field>
     </record>
-    <record id="serial_number_action" model="ir.actions.act_window">
-        <field name="name">Serial number</field>
+    <record id="serial_number4_action" model="ir.actions.act_window">
+        <field name="name">Serial Number 1</field>
         <field name="type">ir.actions.act_window</field>
-        <field name="res_model">serial.number</field>
+        <field name="res_model">serial.number4</field>
         <field name="view_type">form</field>
         <field name="view_mode">tree,form</field>
         <field name="context">{}</field>
@@ -89,14 +89,12 @@
         </field>
     </record>
 
-    <record id="sequence_id2" model="ir.sequence">
-        <field name="name">Serial Number</field>
-        <field name="code">serial.number</field>
+    <record id="sequence_id6" model="ir.sequence">
+        <field name="name">Serial Number 4</field>
+        <field name="code">serial.number4</field>
         <field name="padding">4</field>
-        <field name="prefix">ICE-ISG-%(y)s%(month)s-</field>
+        <field name="prefix">ICE-4-%(y)s%(month)s-</field>
     </record>
-
-
 
     <!-- <menuitem  -->
     <!-- id="submenu_barcode" -->

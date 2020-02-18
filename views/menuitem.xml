@@ -1,0 +1,46 @@
+<odoo>
+    <menuitem 
+        id="main_serialnumber" 
+        name="Serial Number" />
+
+    <menuitem 
+        id="sub_serialnumber" 
+        name="Serial Number"
+        parent="main_serialnumber"/>
+
+    <menuitem 
+        id="menu_serial_number" 
+        name="Serial Number" 
+        parent="sub_serialnumber"
+        action="serial_number_action" />
+
+    <menuitem 
+        id="menu_serial_number86" 
+        name="Serial Number 86" 
+        parent="sub_serialnumber" 
+        action="serial_number86_action" />
+
+    <menuitem 
+        id="menu_serial_number1" 
+        name="Serial Number 1" 
+        parent="sub_serialnumber" 
+        action="serial_number1_action" />
+
+    <menuitem 
+        id="menu_serial_number2" 
+        name="Serial Number 2" 
+        parent="sub_serialnumber" 
+        action="serial_number2_action" />
+
+    <menuitem 
+        id="menu_serial_number3" 
+        name="Serial Number 3" 
+        parent="sub_serialnumber" 
+        action="serial_number3_action" />
+
+    <menuitem 
+        id="menu_serial_number4" 
+        name="Serial Number 4" 
+        parent="sub_serialnumber" 
+        action="serial_number4_action" />
+</odoo>
