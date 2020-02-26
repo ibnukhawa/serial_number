@@ -30,7 +30,7 @@
                                 <tbody>
                                     <tr style="width: 8in;">
                                         <td style="border: 2px solid black;text-align: center; vertical-align: middle;" class="col-xs-5">
-                                            <img t-if="doc.name" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', doc.name, 600, 150)" style="width:100%;height:20%;"/>
+                                            <img t-if="doc.name" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%r' % ('QR', doc.name + '\n\nPT. INNOVASI SARANA GRAFINDO\nOffice : Jl. Lenteng Agung Raya No. 15 (Jl. Baung No. 2) Jakarta Selatan 12610\nPhone : (+62) 21 7883 1075\nFax : (+62) 21 7883 1075\nPhone : (+62) 21 7883 1692\nWebsite : http://innograph.com', 600, 150)" style="width:100%;height:20%;"/>
                                             <span t-field="doc.name"/>
                                         </td>
                                     </tr>
