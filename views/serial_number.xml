@@ -9,6 +9,7 @@
                 <tree string="Serial Number">
                     <field name="name"/>
                     <field name="partner_id"/>
+                    <field name="product_selection"/>
                     <field name="product_id"/>
                     <field name="date"/>
                     <field name="sale_id"/>
@@ -35,6 +36,7 @@
                                     <field name="partner_id"/>
 			                    </group>
 			                    <group>	
+                                    <field name="product_selection"/>
                                     <field name="categ_id"/>
                                     <field name="date"/>
                                 </group>
@@ -87,13 +89,6 @@
                 <p class="oe_view_nocontent_create">
                     Create new Serial Number line here..</p>
             </field>
-        </record>
-
-        <record id="sequence_id" model="ir.sequence">
-                <field name="name">Serial Number</field>
-                <field name="code">serial.number</field>
-                <field name="padding">3</field>
-                <field name="prefix">%(y)s%(month)s%(day)s</field>
         </record>
 
     	<menuitem 

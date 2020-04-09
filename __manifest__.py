@@ -8,8 +8,8 @@
   'data': [
     
     'views/serial_number.xml',
-    # 'views/sale_order.xml'
-    'views/sale_order_line.xml',
+    'views/sequence_serial_number.xml',
+    'views/sale_order_line.xml'
   ],
   'qweb': [
     # 'static/src/xml/nama_widget.xml',
