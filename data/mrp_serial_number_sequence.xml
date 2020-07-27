@@ -1,0 +1,295 @@
+<odoo>
+    <record id="sequence_floorstand43" model="ir.sequence">
+        <field name="name">SN Floorstand 43</field>
+        <field name="code">serial.number.floorstand43</field>
+        <field name="padding">4</field>
+        <field name="prefix">GL43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_floorstand49" model="ir.sequence">
+        <field name="name">SN Floorstand 49</field>
+        <field name="code">serial.number.floorstand49</field>
+        <field name="padding">4</field>
+        <field name="prefix">GL49-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_floorstand55" model="ir.sequence">
+        <field name="name">SN Floorstand 55</field>
+        <field name="code">serial.number.floorstand55</field>
+        <field name="padding">4</field>
+        <field name="prefix">GL55-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_digisig43" model="ir.sequence">
+        <field name="name">SN DigiSig 43</field>
+        <field name="code">serial.number.digisig43</field>
+        <field name="padding">4</field>
+        <field name="prefix">GD43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_digisig55" model="ir.sequence">
+        <field name="name">SN DigiSig 55</field>
+        <field name="code">serial.number.digisig55</field>
+        <field name="padding">4</field>
+        <field name="prefix">GD55-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_eduplay32b" model="ir.sequence">
+        <field name="name">SN Eduplay 32 Blue</field>
+        <field name="code">serial.number.eduplay32b</field>
+        <field name="padding">4</field>
+        <field name="prefix">HAN32B-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_eduplay32r" model="ir.sequence">
+        <field name="name">SN Eduplay 32 Red</field>
+        <field name="code">serial.number.eduplay32r</field>
+        <field name="padding">4</field>
+        <field name="prefix">HAN32R-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_kiosk21" model="ir.sequence">
+        <field name="name">SN Kiosk 21.5</field>
+        <field name="code">serial.number.kiosk21.5</field>
+        <field name="padding">4</field>
+        <field name="prefix">VK21-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_kiosk27" model="ir.sequence">
+        <field name="name">SN Kiosk 227</field>
+        <field name="code">serial.number.kiosk27</field>
+        <field name="padding">4</field>
+        <field name="prefix">VK27-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_kiosk32" model="ir.sequence">
+        <field name="name">SN Kiosk 32</field>
+        <field name="code">serial.number.kiosk32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VK32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_display22" model="ir.sequence">
+        <field name="name">SN AD Display 22</field>
+        <field name="code">serial.number.display22</field>
+        <field name="padding">4</field>
+        <field name="prefix">GP22-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_display32" model="ir.sequence">
+        <field name="name">SN AD Display 32</field>
+        <field name="code">serial.number.display32</field>
+        <field name="padding">4</field>
+        <field name="prefix">GP32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchfloorstand49" model="ir.sequence">
+        <field name="name">SN Touchscreen Floorstand 49</field>
+        <field name="code">serial.number.touchfloorstand49</field>
+        <field name="padding">4</field>
+        <field name="prefix">GLT49-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchfloorstand55" model="ir.sequence">
+        <field name="name">SN Touchscreen Floorstand 55</field>
+        <field name="code">serial.number.touchfloorstand55</field>
+        <field name="padding">4</field>
+        <field name="prefix">GLT55-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchmonitor32" model="ir.sequence">
+        <field name="name">SN Touchscreen Monitor 32</field>
+        <field name="code">serial.number.touchmonitor32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VMT32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchmonitor43" model="ir.sequence">
+        <field name="name">SN Touchscreen Monitor 43</field>
+        <field name="code">serial.number.touchmonitor43</field>
+        <field name="padding">4</field>
+        <field name="prefix">VMT43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchmonitor49" model="ir.sequence">
+        <field name="name">SN Touchscreen Monitor 49</field>
+        <field name="code">serial.number.touchmonitor49</field>
+        <field name="padding">4</field>
+        <field name="prefix">VMT49-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_touchmonitor55" model="ir.sequence">
+        <field name="name">SN Touchscreen Monitor 55</field>
+        <field name="code">serial.number.touchmonitor55</field>
+        <field name="padding">4</field>
+        <field name="prefix">VMT55-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_adigisig32" model="ir.sequence">
+        <field name="name">SN A-Digital Signage 32</field>
+        <field name="code">serial.number.adigisig32</field>
+        <field name="padding">4</field>
+        <field name="prefix">CH32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_adigisig43" model="ir.sequence">
+        <field name="name">SN A-Digital Signage 43</field>
+        <field name="code">serial.number.adigisig43</field>
+        <field name="padding">4</field>
+        <field name="prefix">CH43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_adigisig43touch" model="ir.sequence">
+        <field name="name">SN A-Digital Signage Touchscreen 43</field>
+        <field name="code">serial.number.adigisig43touch</field>
+        <field name="padding">4</field>
+        <field name="prefix">CHT43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_interactivecontroller" model="ir.sequence">
+        <field name="name">SN Interactive Controller Box</field>
+        <field name="code">serial.number.interactivecontroller</field>
+        <field name="padding">4</field>
+        <field name="prefix">VADS-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_addisplay" model="ir.sequence">
+        <field name="name">SN AD Display Controller Box</field>
+        <field name="code">serial.number.addisplay</field>
+        <field name="padding">4</field>
+        <field name="prefix">GADB-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_ice265" model="ir.sequence">
+        <field name="name">SN ICE BOARD 65</field>
+        <field name="code">serial.number.ice265</field>
+        <field name="padding">4</field>
+        <field name="prefix">ICE265-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_ice275" model="ir.sequence">
+        <field name="name">SN ICE BOARD 75</field>
+        <field name="code">serial.number.ice275</field>
+        <field name="padding">4</field>
+        <field name="prefix">ICE275-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_ice286" model="ir.sequence">
+        <field name="name">SN ICE BOARD 86</field>
+        <field name="code">serial.number.ice286</field>
+        <field name="padding">4</field>
+        <field name="prefix">ICE286-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_ice298" model="ir.sequence">
+        <field name="name">SN ICE BOARD 98</field>
+        <field name="code">serial.number.ice298</field>
+        <field name="padding">4</field>
+        <field name="prefix">ICE298-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_ops" model="ir.sequence">
+        <field name="name">SN OPS</field>
+        <field name="code">serial.number.ops</field>
+        <field name="padding">4</field>
+        <field name="prefix">OPS5-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_opsi5vpro" model="ir.sequence">
+        <field name="name">SN OPS</field>
+        <field name="code">serial.number.opsi5vpro</field>
+        <field name="padding">4</field>
+        <field name="prefix">OPS5V-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_wsk" model="ir.sequence">
+        <field name="name">SN Wireless Screenshare Kit</field>
+        <field name="code">serial.number.wsk</field>
+        <field name="padding">4</field>
+        <field name="prefix">WSK-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKAC32" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Android 32" Capacitive Touch</field>
+        <field name="code">serial.number.VSOKAC32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKAC32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKAC43" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Android 43" Capacitive Touch</field>
+        <field name="code">serial.number.VSOKAC43</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKAC43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKAR32" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Android 32" IR Touch</field>
+        <field name="code">serial.number.VSOKAR32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKAR32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKAR43" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Android 43" IR Touch</field>
+        <field name="code">serial.number.VSOKAR43</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKAR43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKIC32" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Intel I3 with Windows 10 IOT 32" Capacitive Touch</field>
+        <field name="code">serial.number.VSOKIC32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKIC32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKIC43" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Intel I3 with Windows 10 IOT 43" Capacitive Touch</field>
+        <field name="code">serial.number.VSOKIC43</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKIC43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKIR32" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Intel I3 with Windows 10 IOT 32" IR Touch</field>
+        <field name="code">serial.number.VSOKIR32</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKIR32-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSOKIR43" model="ir.sequence">
+        <field name="name">SN Self Order Kiosk Platform Intel I3 with Windows 10 IOT 43" IR Touch</field>
+        <field name="code">serial.number.VSOKIR43</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSOKIR43-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSSKA215" model="ir.sequence">
+        <field name="name">SN Self Services Kiosk Basic - Platform Android 21.5" touch</field>
+        <field name="code">serial.number.VSSKA215</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSSKA215-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_VSSKAI15" model="ir.sequence">
+        <field name="name">SN Self Services Kiosk Basic - Platform Intel I3 with Windows 10 IOT 21.5" touch</field>
+        <field name="code">serial.number.VSSKI215</field>
+        <field name="padding">4</field>
+        <field name="prefix">VSSKI215-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_qdsp5" model="ir.sequence">
+        <field name="name">SN Controller QDSP Box i5</field>
+        <field name="code">serial.number.qdsp5</field>
+        <field name="padding">4</field>
+        <field name="prefix">QDSP5-%(y)s%(month)s-</field>
+    </record>
+
+    <record id="sequence_sn" model="ir.sequence">
+        <field name="name">Serial Number</field>
+        <field name="code">serial.number</field>
+        <field name="padding">4</field>
+        <field name="prefix">INVALID-</field>
+    </record>
+</odoo>
